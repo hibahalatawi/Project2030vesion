@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04258D5C2A1CB5950051878A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04258D5B2A1CB5950051878A /* DataModel.swift */; };
 		3888EC642A1CAD20001D9B51 /* OnBoardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */; };
 		3888EC662A1CADB3001D9B51 /* Classifier. swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */; };
 		3888EC682A1CADE8001D9B51 /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC672A1CADE8001D9B51 /* imagePicker.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04258D5B2A1CB5950051878A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStep.swift; sourceTree = "<group>"; };
 		3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classifier. swift.swift"; sourceTree = "<group>"; };
 		3888EC672A1CADE8001D9B51 /* imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				FF7B62FC2A1B3E1A007F9369 /* Project2030App.swift */,
 				3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */,
+				04258D5B2A1CB5950051878A /* DataModel.swift */,
 				3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */,
 				3888EC672A1CADE8001D9B51 /* imagePicker.swift */,
 				3888EC692A1CADFC001D9B51 /* ImageClassifier.swift */,
@@ -295,6 +298,7 @@
 				3888EC6E2A1CAE2F001D9B51 /* TabBarItem.swift in Sources */,
 				FF7B63062A1B3E1B007F9369 /* Persistence.swift in Sources */,
 				3888EC662A1CADB3001D9B51 /* Classifier. swift.swift in Sources */,
+				04258D5C2A1CB5950051878A /* DataModel.swift in Sources */,
 				3888EC722A1CB017001D9B51 /* MobileNetV23.mlmodel in Sources */,
 				FF7B62FF2A1B3E1A007F9369 /* ContentView.swift in Sources */,
 				3888EC6C2A1CAE19001D9B51 /* TabBarItemView.swift in Sources */,

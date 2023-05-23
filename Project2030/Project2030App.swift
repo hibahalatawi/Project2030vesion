@@ -13,7 +13,8 @@ struct Project2030App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingView()
+    
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

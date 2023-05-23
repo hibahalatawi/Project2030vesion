@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3888EC642A1CAD20001D9B51 /* OnBoardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */; };
+		3888EC662A1CADB3001D9B51 /* Classifier. swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */; };
+		3888EC682A1CADE8001D9B51 /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC672A1CADE8001D9B51 /* imagePicker.swift */; };
+		3888EC6A2A1CADFC001D9B51 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC692A1CADFC001D9B51 /* ImageClassifier.swift */; };
+		3888EC6C2A1CAE19001D9B51 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC6B2A1CAE19001D9B51 /* TabBarItemView.swift */; };
+		3888EC6E2A1CAE2F001D9B51 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC6D2A1CAE2F001D9B51 /* TabBarItem.swift */; };
+		3888EC702A1CAE4D001D9B51 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC6F2A1CAE4D001D9B51 /* TabBarView.swift */; };
+		3888EC722A1CB017001D9B51 /* MobileNetV23.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3888EC712A1CB017001D9B51 /* MobileNetV23.mlmodel */; };
 		FF7B62FD2A1B3E1A007F9369 /* Project2030App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B62FC2A1B3E1A007F9369 /* Project2030App.swift */; };
 		FF7B62FF2A1B3E1A007F9369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B62FE2A1B3E1A007F9369 /* ContentView.swift */; };
 		FF7B63012A1B3E1B007F9369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7B63002A1B3E1B007F9369 /* Assets.xcassets */; };
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStep.swift; sourceTree = "<group>"; };
+		3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classifier. swift.swift"; sourceTree = "<group>"; };
+		3888EC672A1CADE8001D9B51 /* imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
+		3888EC692A1CADFC001D9B51 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		3888EC6B2A1CAE19001D9B51 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		3888EC6D2A1CAE2F001D9B51 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		3888EC6F2A1CAE4D001D9B51 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		3888EC712A1CB017001D9B51 /* MobileNetV23.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV23.mlmodel; path = "../../Project2030/Preview Content/MobileNetV23.mlmodel"; sourceTree = "<group>"; };
 		FF7B62F92A1B3E1A007F9369 /* Project2030.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2030.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7B62FC2A1B3E1A007F9369 /* Project2030App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2030App.swift; sourceTree = "<group>"; };
 		FF7B62FE2A1B3E1A007F9369 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,7 +116,15 @@
 			isa = PBXGroup;
 			children = (
 				FF7B62FC2A1B3E1A007F9369 /* Project2030App.swift */,
+				3888EC632A1CAD20001D9B51 /* OnBoardingStep.swift */,
+				3888EC652A1CADB3001D9B51 /* Classifier. swift.swift */,
+				3888EC672A1CADE8001D9B51 /* imagePicker.swift */,
+				3888EC692A1CADFC001D9B51 /* ImageClassifier.swift */,
+				3888EC6B2A1CAE19001D9B51 /* TabBarItemView.swift */,
+				3888EC6D2A1CAE2F001D9B51 /* TabBarItem.swift */,
+				3888EC6F2A1CAE4D001D9B51 /* TabBarView.swift */,
 				FF7B62FE2A1B3E1A007F9369 /* ContentView.swift */,
+				3888EC712A1CB017001D9B51 /* MobileNetV23.mlmodel */,
 				FF7B63002A1B3E1B007F9369 /* Assets.xcassets */,
 				FF7B63052A1B3E1B007F9369 /* Persistence.swift */,
 				FF7B630A2A1B3E1B007F9369 /* Info.plist */,
@@ -265,9 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3888EC6A2A1CADFC001D9B51 /* ImageClassifier.swift in Sources */,
+				3888EC702A1CAE4D001D9B51 /* TabBarView.swift in Sources */,
 				FF7B63092A1B3E1B007F9369 /* Project2030.xcdatamodeld in Sources */,
+				3888EC6E2A1CAE2F001D9B51 /* TabBarItem.swift in Sources */,
 				FF7B63062A1B3E1B007F9369 /* Persistence.swift in Sources */,
+				3888EC662A1CADB3001D9B51 /* Classifier. swift.swift in Sources */,
+				3888EC722A1CB017001D9B51 /* MobileNetV23.mlmodel in Sources */,
 				FF7B62FF2A1B3E1A007F9369 /* ContentView.swift in Sources */,
+				3888EC6C2A1CAE19001D9B51 /* TabBarItemView.swift in Sources */,
+				3888EC642A1CAD20001D9B51 /* OnBoardingStep.swift in Sources */,
+				3888EC682A1CADE8001D9B51 /* imagePicker.swift in Sources */,
 				FF7B62FD2A1B3E1A007F9369 /* Project2030App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

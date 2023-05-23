@@ -37,7 +37,7 @@ struct OnBoardingView: View {
                 Button{
                     ishownhome.toggle()
                 } label: {
-                    Text("SKIP")
+                    Text("SKiiiiiIP")
                 }
                 .fontWeight(.bold)
                 .font(Font.custom("SF Pro", size: 20))
